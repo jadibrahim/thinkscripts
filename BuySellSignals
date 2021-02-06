@@ -25,3 +25,8 @@ GX.SetLineWeight(2);
 AssignPriceColor(if Buy then Color.DARK_GREEN else if StrongBuy then Color.GREEN else if Sell then Color.DARK_RED else if StrongSell then Color.RED else Color.BLUE);
 
 AddLabel(yes, Concat("Current Reading is ", (if Buy then "Up Trend" else if StrongBuy then "Strong Up Trend" else if Sell then "Down Trend" else if StrongSell then "Strong Down Trend" else "Neutral")),  if Buy then Color.DARK_GREEN else if StrongBuy then Color.GREEN else if Sell then Color.DARK_RED else if StrongSell then Color.RED else Color.GRAY);
+
+## Alerts ##
+# Unblock comments below if you would like alerts
+# Alert(GU, " ", Alert.Bar, Sound.Chimes);
+# Alert(GX, " ", Alert.Bar, Sound.Bell);
