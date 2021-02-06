@@ -1,3 +1,5 @@
+# Original post https://usethinkscript.com/threads/trend-painter-indicator-with-buy-sell-signals-for-thinkorswim.226/
+
 case Standard:
     Line1 = ThermoScore;
     Line2 = ThermoScore;
